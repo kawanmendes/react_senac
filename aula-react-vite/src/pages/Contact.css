@@ -16,12 +16,12 @@
 }
 
 .content {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50fr 30fr;
   gap: 2rem;
   margin-top: 1rem;
   position: relative;
   touch-action: pan-down;
-  margin-top: 475px
+  margin-top: 475px;
 }
 
 .contact-form {

@@ -1,0 +1,67 @@
+.page-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-container h1 {
+  color: #282c34;
+  margin-bottom: 1rem;
+}
+
+.page-container p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.content {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 50fr 0fr;
+  gap: 0rem;
+  /* center grid items horizontally so a single card sits in the middle */
+  justify-content: center;
+  justify-items: center;
+}
+
+.content-intro {
+  grid-column: 1 / -1;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.content h2 {
+  color: #61dafb;
+  margin: 0 0 0.5rem 0;
+}
+
+.service-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border-right: 4px solid #61dafb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* constrain width so card appears centered and readable */
+  width: 100%;
+  max-width: 720px;
+  box-sizing: border-box;
+  /* center contents inside the card */
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.content p {
+  line-height: 1.6;
+  margin: 0;
+}

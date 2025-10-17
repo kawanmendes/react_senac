@@ -1,4 +1,3 @@
-import React from 'react';
 import './Services.css';
 
 const Services = () => {
@@ -9,19 +8,19 @@ const Services = () => {
       <div className="content">
         <div className="service-item">
           <h3>Web Development</h3>
-          <p>Building modern, responsive websites and web applications.</p>
+          <p>Criação de sites e aplicativos web modernos e responsivos.</p>
         </div>
         <div className="service-item">
           <h3>Mobile Apps</h3>
-          <p>Creating intuitive mobile applications for iOS and Android.</p>
+          <p>Criação de aplicativos móveis intuitivos para iOS e Android.</p>
         </div>
         <div className="service-item">
           <h3>UI/UX Design</h3>
-          <p>Designing beautiful and user-friendly interfaces.</p>
+          <p>Criação de interfaces bonitas e fáceis de usar.</p>
         </div>
         <div className="service-item">
           <h3>Consulting</h3>
-          <p>Providing expert advice and strategic guidance.</p>
+          <p>Consultoria especializada e orientação estratégica.</p>
         </div>
       </div>
     </div>
